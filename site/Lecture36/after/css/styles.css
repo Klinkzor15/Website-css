@@ -1,22 +1,32 @@
 body {
   font-size: 16px;
   color: #fff;
-  background-color: #722e00;
-  font-family: 'Oxygen', sans-serif;
+  background-color: #B0F2B4;
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
 }
 
 /** HEADER **/
 #header-nav {
-  background-color: #1a1c1d;
+  background-color: #B89842;
   border-radius: 0;
   border: 0;
 }
 
 #logo-img {
-  background: url('../images/track-logo-large.png') no-repeat;
+  background: url('../images/Air_Travel_150x150.png') no-repeat;
   width: 150px;
   height: 200px;
   margin: 10px 15px 10px 0;
+}
+
+#icon{
+  width: 30px;
+  height: 30px;
 }
 
 .navbar-brand {
@@ -88,7 +98,7 @@ body {
   margin-top: 30px;
   padding-top: 35px;
   padding-bottom: 30px;
-  background-color: #222;
+  background-color: #B89842;
   border-top: 0;
 }
 .panel-footer div.row {
@@ -100,8 +110,13 @@ body {
 #hours > span, #address > span {
   font-size: 1.3em;
 }
+
+.row {
+  color: #000;
+}
+
 #address p {
-  color: #557c3e;
+  color: #d7e2d1;
   font-size: .8em;
   line-height: 1.8;
 }
@@ -118,7 +133,7 @@ body {
 /* HOME PAGE */
 .container .jumbotron {
   box-shadow: 0 0 50px #3F0C1F;
-  border: 2px solid #3F0C1F;
+  border: 1px solid #B0F2B4;
 }
 
 #menu-tile, #specials-tile, #map-tile {
@@ -158,7 +173,7 @@ body {
 /********** Large devices only **********/
 @media (min-width: 1200px) {
   .container .jumbotron {
-    background: url('../images/jumbotron_1200.jpg') no-repeat;
+    background: url('../images/landing_page.png') no-repeat;
     height: 675px;
   }
 }
@@ -176,7 +191,7 @@ body {
 
   /* Home Page */
   .container .jumbotron {
-    background: url('../images/jumbotron_992.jpg') no-repeat;
+    background: url('../images/landing_page_992.png') no-repeat;
     height: 558px;
   }
   /* End Home Page */
@@ -186,7 +201,7 @@ body {
 @media (min-width: 768px) and (max-width: 991px) {
   /* Home Page */
   .container .jumbotron {
-    background: url('../images/jumbotron_768.jpg') no-repeat;
+    background: url('../images/landing_page_768.png ') no-repeat;
     height: 432px;
   }
   /* End Home Page */
