@@ -21,7 +21,7 @@ body {
   background: url('../images/Air_Travel_150x150.png') no-repeat;
   width: 150px;
   height: 200px;
-  margin: 10px 15px 10px 0;
+  margin: 0px 15px 10px 0;
 }
 
 #icon{
@@ -34,7 +34,7 @@ body {
 }
 
 .navbar-brand h1 { /* Restaurant name */
-  font-family: 'Lora', serif;
+  font-family: 'Lobster Two', cursive;
   color: #a25f14;
   font-size: 1.5em;
   text-transform: uppercase;
@@ -148,11 +148,11 @@ body {
   box-shadow: 0 1px 5px 1px #cccccc;
 }
 #menu-tile {
-  background: url('../images/menu-tile.jpg') no-repeat;
+  background: url('../images/flights.jpg') no-repeat;
   background-position: center;
 }
 #specials-tile {
-  background: url('../images/specials-tile.jpg') no-repeat;
+  background: url('../images/hotel.jpg') no-repeat;
   background-position: center;
 }
 #menu-tile span, #specials-tile span, #map-tile span {
